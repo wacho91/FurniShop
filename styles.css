@@ -405,3 +405,21 @@ nav {
     opacity: 0.8;
     text-align: center;
 }
+
+@media (width > 540px) {
+    .deals__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
